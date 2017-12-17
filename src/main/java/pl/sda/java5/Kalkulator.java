@@ -10,7 +10,7 @@ public class Kalkulator {
     @Path("/czesc")
     @Produces(MediaType.TEXT_PLAIN)
     public String czesc(@QueryParam("imie") String imie) {
-        return "czesc " + imie;
+        return "czesc ludku o imieniu" + imie;
     }
 
     @GET
